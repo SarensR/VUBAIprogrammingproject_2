@@ -84,7 +84,7 @@ class DefensiveAgent(CaptureAgent):
         self.border = int(width / 2)
 
         if self.red:
-            self.opponent_start = (width, height)
+            self.opponent_start = (width, self.height)
         else:
             self.opponent_start = (1, 1)
 
